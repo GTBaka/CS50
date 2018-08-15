@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x = 20;
+    int y = 5;
+
+    printf("%i plus %i is %i\n",x,y,x+y); //answer is 25
+    printf("%i minus %i is %i\n",x,y,x-y); //answer is 15
+    printf("%i times %i is %i\n",x,y,x*y); //answer is 100
+    printf("%i divided by %i is %i\n",x,y,x/y); //answer is 4
+    printf("remainder of %i divided by %i is %i\n",x,y,x%y); //answer is 0
+}
