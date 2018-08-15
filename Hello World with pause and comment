@@ -1,8 +1,0 @@
-#include <stdio.h>
-
-int main(void) 
-{
-    printf("Hello World\n");
-    getchar();
-    //getchar(); is used here to stop the command prompt from immediately closing until the user hits "Enter".
-}
